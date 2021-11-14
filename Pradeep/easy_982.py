@@ -1,3 +1,6 @@
+"""
+https://binarysearch.com/problems/First-Fit-Room
+"""
 def solve(rooms, target):
     for i in rooms:
         while i >= target:

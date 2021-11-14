@@ -1,3 +1,6 @@
+"""
+https://binarysearch.com/problems/Odd-Number-of-Digits
+"""
 def solve(nums):
     count = 0
     for i in nums:
