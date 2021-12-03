@@ -3,6 +3,17 @@ class LLNode:
         self.val = val
         self.next = next
 
+    def __str__(self):
+        temp = self
+        s = '['
+        while temp:
+            s += str(temp.val) + ","
+            temp = temp.next
+        if s[-1] == ',':
+            s = s[:-1]
+        s += ']'
+        return s
+
 def init_list(nums):
     nodes = [LLNode(x) for x in nums]
     i = 0
