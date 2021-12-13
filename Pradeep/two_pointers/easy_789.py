@@ -1,0 +1,6 @@
+"""
+
+"""
+
+def solve(nums, multiplyers):
+    

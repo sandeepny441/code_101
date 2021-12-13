@@ -1,5 +1,7 @@
 """
 https://binarysearch.com/problems/Minimize-Amplitude-After-K-Removals
+
+Still pending one *********
 """
 
 def solve(nums, k):
